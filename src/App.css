@@ -4,11 +4,10 @@
   font-size: 32px;
 }
 
-.dropDown {
-  font-size: 16px;
-  padding: 25px;
+.entryForm h2 {
+  font-size: 24px;
 }
 
-.imageCountBox {
+.entryForm select {
   font-size: 16px;
 }

@@ -1,14 +1,12 @@
 import "./App.css";
 import Header from "./components/Header.jsx";
-import Dropdown from "./components/dropdown.jsx";
-import ImageCount from "./components/imageCount.jsx";
+import BreedList from "./components/BreedList.jsx";
 
 function App() {
   return (
     <div className="container">
       {<Header />}
-      {<Dropdown />}
-      {<ImageCount />}
+      {<BreedList />}
     </div>
   );
 }
