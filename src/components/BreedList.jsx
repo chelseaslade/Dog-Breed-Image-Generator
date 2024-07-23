@@ -23,6 +23,9 @@ const BreedList = ({ chooseBreed, chooseImgNum }) => {
             </option>
           ))}
         </select>
+        <h2>Select Image Number:</h2>
+        <input type="number" min="1" max="100" defaultValue="1"></input>
+        <button type="submit">Select</button>
       </div>
     </>
   );
