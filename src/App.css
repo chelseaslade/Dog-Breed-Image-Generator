@@ -5,6 +5,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.header img {
+  height: 200px;
+  width: 400px;
+}
+
 .entryForm h2 {
   font-size: 24px;
   color: midnightblue;
@@ -29,4 +34,11 @@
 
 .entryForm button:hover {
   box-shadow: 0 5px 5px 0 rgb(165, 159, 208);
+}
+
+.gallery img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  padding: 5px;
 }

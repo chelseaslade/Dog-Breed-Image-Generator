@@ -1,5 +1,15 @@
 function Header({ title }) {
-  return <header>{title}</header>;
+  return (
+    <>
+      <div className="header">
+        <img
+          src="https://images.unsplash.com/photo-1489417139533-915815598d31?q=80&w=1880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Dogs running"
+        ></img>
+        <header>{title}</header>
+      </div>
+    </>
+  );
 }
 
 Header.defaultProps = {
