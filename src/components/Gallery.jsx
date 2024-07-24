@@ -1,19 +1,3 @@
-// import React from "react";
-// import "../App.css";
-
-// const Gallery = ({ images }) => {
-//   return (
-//     <div className="gallery">
-//       {images &&
-//         images.map((image, index) => (
-//           <img key={index} src={image} alt="Dog" className="galleryImg" />
-//         ))}
-//     </div>
-//   );
-// };
-
-// export default Gallery;
-
 import React from "react";
 
 const Gallery = ({ images, breed }) => {

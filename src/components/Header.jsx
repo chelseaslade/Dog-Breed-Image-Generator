@@ -3,7 +3,7 @@ function Header({ title }) {
     <>
       <div className="header">
         <img
-          src="https://images.unsplash.com/photo-1489417139533-915815598d31?q=80&w=1880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="https://images.unsplash.com/photo-1546238232-20216dec9f72?q=80&w=2068&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Dogs running"
         ></img>
         <header>{title}</header>
