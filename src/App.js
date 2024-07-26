@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header.jsx";
 import BreedList from "./components/BreedList.jsx";
 import Gallery from "./components/Gallery.jsx";
+import Footer from "./components/Footer.jsx";
 import { useState, useEffect } from "react";
 
 const App = () => {
@@ -47,6 +48,7 @@ const App = () => {
       <div className="gallery">
         <Gallery images={images} breed={breed} />
       </div>
+      <Footer />
     </div>
   );
 };

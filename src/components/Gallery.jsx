@@ -1,5 +1,3 @@
-import React from "react";
-
 const Gallery = ({ images, breed }) => {
   return (
     <div className="gallery">
@@ -8,7 +6,7 @@ const Gallery = ({ images, breed }) => {
           <img key={index} src={image} alt={`${breed} ${index}`} />
         ))
       ) : (
-        <p>No images to display</p>
+        <p>Nothing selected! Make a selection above.</p>
       )}
     </div>
   );

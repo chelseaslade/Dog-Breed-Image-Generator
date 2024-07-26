@@ -9,6 +9,7 @@
   height: 150px;
   width: 800px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .entryForm h2 {
@@ -37,9 +38,32 @@
   box-shadow: 0 5px 5px 0 rgb(165, 159, 208);
 }
 
+.gallery p {
+  font-size: 18px;
+  padding: 10px;
+}
+
 .gallery img {
   height: 300px;
   width: 300px;
   object-fit: cover;
-  padding: 5px;
+  margin: 5px;
+
+  border: 3px solid slateblue;
+  border-radius: 5px;
+}
+
+.footer {
+  height: 50px;
+  line-height: 50px;
+  background-image: url("https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  width: 750px;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.footer p {
+  font-size: 14px;
 }
